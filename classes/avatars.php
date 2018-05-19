@@ -2,7 +2,7 @@
 
     //All avatars from http://steamavatars.tumblr.com/
 
-    $avatars = [
+    const AVATARS = [
         "https://78.media.tumblr.com/23fc36dcc920558f6028e8815531fd2c/tumblr_p7hytol58w1rpwm80o1_250.jpg",
         "https://78.media.tumblr.com/4ff97363eaced70be4086202a55c50c8/tumblr_p80ccwJyxO1rpwm80o1_250.jpg",
         "https://78.media.tumblr.com/d6a7578bdb5e0c3599808ea48c03b4be/tumblr_od8n112rDj1rpwm80o1_r1_250.png",
