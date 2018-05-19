@@ -5,5 +5,5 @@
 	
 	$randomizer->randomizeGravatar();
 
-	echo "Heyo, if all went well, Bruno's have been changed!";
+	echo "Heyo, if all went well, Bruno's gravatar have been changed!";
 ?>
