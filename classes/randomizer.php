@@ -6,7 +6,7 @@
 	class Randomizer {
 		public function randomizeGravatar() {				
 			$max = count($avatars);
-			$gravatarURL = $avatars[random_int(0,$max)]	
+			$gravatarURL = $avatars[random_int(0,$max)];
 			foreach (GRAVATAR_EMAILS as $email) {
 				$gravatarAPI = new GravatarRPC(AKISMET_API_KEY, $email);
 				foreach ($this->convertToArray($gravatarAPI->userimages()) as $gravatar) {
